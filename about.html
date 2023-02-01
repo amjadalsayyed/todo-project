@@ -1,62 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <section>
-            <img src="/assets/images/logo.jpg" alt="logo">
-            <h1>ToDo</h1>
-        </section>
-        <nav>
-            <ul>
-                <li> <a href="/"> Home</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header class="header">
+      <section>
+        <img class="logo" src="/assets/images/logo.jpg" alt="logo" />
+      </section>
+
+      <nav>
+        <ul>
+          <li><a href="/"> Home</a></li>
+        </ul>
+      </nav>
     </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
     <main>
-        <section>
-            <img src="./assets/images/Screenshot_1.png" alt="my photo">
-            <h3>Amjad Al-sayyed</h3>
-            <h4>Description</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum omnis totam recusandae aliquam hic rem accusantium, esse, deserunt nam soluta fuga suscipit doloremque asperiores voluptatibus eos nihil aliquid iste. Consequuntur?</p>
-        </section>
-        <section>
-            <form>
-                <label>Name</label>
-                <input type="text" >
-                <label>Email</label>
-                <input type="email">
-                <label>Message</label>
-                <textarea></textarea>
-                <input type="submit">
-            </form>
-        </section>
+      <section class="section1">
+        <div class="img_name_contaanier">
+          <img
+            class="profile_img"
+            src="./assets/images/Screenshot_1.png"
+            alt="my photo"
+          />
+          <h2 class="name">Amjad Al-sayyed</h2>
+        </div>
+        <div class="description">
+          <h2 style="margin-top: 0">Description:</h2>
+          <p style="font-size: 18px">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam
+            autem eum vitae possimus, minima numquam placeat, consectetur id,
+            pariatur culpa corporis dolores voluptate! Corrupti itaque nesciunt
+            nam ex unde amet. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Iste quas aliquid, explicabo eum unde sit sunt rerum ex rem
+            cum eveniet! Dolorum culpa sed adipisci quod eum est! Hic,
+            necessitatibus?
+          </p>
+        </div>
+      </section>
+      <section class="section2">
+        <form>
+          <div class="input_name">
+            <label>Name :</label>
+            <input type="text" />
+          </div>
+          <div class="input_email">
+            <label>Email :</label>
+            <input type="email" />
+          </div>
+          <div class="input_message">
+            <label style="position: absolute">Message :</label>
+            <textarea></textarea>
+          </div>
+
+          <input class="submit_button" type="submit" />
+        </form>
+      </section>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <footer>
-        <section>
-            <p>&copy; Copyrights reserved!</p>
-        </section>
-        <section>
-            <h3>Contact Us</h3>
-            <p>0791234567</p>
-        </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer class="footer">
+      <section class="copyright">
+        <p>&copy; Copyrights reserved!</p>
+      </section>
+      <section class="contact">
+        <p>
+          Contact Us:<br />
+          0791234567
+        </p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

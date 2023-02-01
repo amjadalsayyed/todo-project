@@ -1,0 +1,168 @@
+* {
+  font-family: "Aboreto", cursive;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+}
+a {
+  all: unset;
+  padding: 3px;
+  cursor: pointer;
+}
+.header {
+  background-color: rgb(87, 82, 82);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 1px 10px 0px whitesmoke;
+}
+
+.logo {
+  width: 150px;
+  height: 80px;
+  border-radius: 30%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+nav ul li {
+  float: right;
+  margin-top: 20px;
+  margin-right: 70px;
+  list-style: none;
+  color: whitesmoke;
+  font-weight: bold;
+  border: 3px solid whitesmoke;
+  border-radius: 15%;
+  width: 120px;
+  text-align: center;
+}
+.main {
+  background-color: rgb(39, 36, 36);
+  margin: 120px;
+  box-shadow: 0px 0px 10px 1px whitesmoke;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  padding-top: 10px;
+}
+.table {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 100%;
+  height: 200px;
+}
+th {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 25px;
+  width: 70%;
+}
+td {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 600;
+  width: auto;
+}
+
+.footer {
+  background-color: rgb(87, 82, 82);
+  height: 150px;
+  width: 100%;
+  box-shadow: 1px 0px 10px 0px whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.copyright {
+  margin-left: 70px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact {
+  margin-left: 1000px;
+  font-weight: 500;
+}
+
+.section1 {
+  background-color: rgb(39, 36, 36);
+  margin: 120px;
+  box-shadow: 0px 0px 10px 1px whitesmoke;
+  padding: 30px;
+  color: whitesmoke;
+}
+
+.img_name_contaanier {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile_img {
+  width: 130px;
+  height: 130px;
+}
+.name {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.description {
+  margin-left: 160px;
+}
+
+.section2 {
+  background-color: rgb(39, 36, 36);
+  margin: 120px;
+  box-shadow: 0px 0px 10px 1px whitesmoke;
+  padding: 30px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.input_name,
+.input_email,
+.input_message {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 0;
+  /* display: flex;
+  justify-content: space-evenly; */
+}
+
+input {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(100, 95, 95);
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+  margin-left: 50px;
+}
+textarea {
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(100, 95, 95);
+  color: rgb(3, 3, 3);
+  font-size: 16px;
+  margin-left: 130px;
+}
+
+.submit_button {
+  margin-left: 120px;
+  width: 100px;
+  color: whitesmoke;
+  background-color: rgb(87, 82, 82);
+}
