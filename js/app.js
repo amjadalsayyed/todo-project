@@ -1,24 +1,31 @@
 let userName = prompt("Plesae enter your Name :");
-let gender = prompt("Please enter your gender :");
 
-let age = prompt("Please enter your age :");
+let gender = prompt("Plesae enter your gender :");
 
-if (age <= 0) {
-  alert(`Your age can't be zero or less `);
+let ageCheck = true;
+let userAge;
+while (ageCheck === true) {
+  let age = prompt("Plesae enter your age :");
+  if (age > 0) {
+    ageCheck = false;
+    userAge = age;
+  } else {
+    alert("Your age cant be 0 or less");
+  }
 }
 
-let userchicoe = confirm("skip welcome message!");
+let userChicoe = confirm("skip welcome message ?");
 
-if (userchicoe === false) {
+if (userChicoe === false) {
   switch (gender) {
     case "male":
-      alert(`Welcome, Mr.${userName}`);
+      alert(`Welcome, Mr.${userName} you are ${userAge} years old`);
       break;
     case "female":
-      alert(`Welcome, Ms.${userName}`);
+      alert(`Welcome, Ms.${userName} you are ${userAge} years old`);
       break;
     default:
-      alert(`Welcome, ${userName}`);
+      alert(`Welcome, ${userName} you are ${userAge} years old`);
       break;
   }
 }
