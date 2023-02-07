@@ -1,3 +1,5 @@
+"use strict";
+
 let userName = prompt("Plesae enter your Name :");
 
 let gender = prompt("Plesae enter your gender :");
@@ -29,3 +31,26 @@ if (userChicoe === false) {
       break;
   }
 }
+
+let qus1 = prompt("Are you a web devlooper ? (Yes or No)");
+let qus2 = prompt("Do you know python ? (Yes or No)");
+let qus3 = prompt("Do you know PHP ? (Yes or No)");
+
+let arr = [qus1, qus2, qus3];
+
+function checkingAnswers(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === "") {
+      arr[i] = "invalid";
+    }
+  }
+}
+checkingAnswers(arr);
+
+function printingArray(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(`your answer for qustion number ${i + 1} is : ` + arr[i]);
+  }
+}
+
+printingArray(arr);
